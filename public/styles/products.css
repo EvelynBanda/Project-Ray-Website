@@ -55,20 +55,21 @@
   }
   
   #product-description {
-    background-color: var(--color-primary-500-bg);
+    background-color: var(--color-primary-500-bg); 
     padding: var(--space-8);
     white-space: pre-wrap;
+    color: var(--color-primary-500-contrast);
   }
   
-  @media (min-width: 48rem) {
+  @media (min-width: 48rem) { /*origionally 48rem*/
     #product-details header {
       display: flex;
     }
   
     #product-details img {
       width: 20rem;
-      height: 15rem;
-      transform: rotateZ(-10deg);
+      height: 26rem; /*origionally 15rem*/
+      /*transform: rotateZ(-10deg);*/
       margin: var(--space-8);
     }
   

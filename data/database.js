@@ -13,7 +13,7 @@ async function connectToDatabase(){
   if (!database){
     throw new Error('You must connect first!');
    }
-    return database;
+    return database; 
 }
 
 module.exports =  {

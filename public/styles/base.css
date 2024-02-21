@@ -6,12 +6,12 @@ html {
     font-family: "Oranienbaum", "sans-serif";
 
   --color-gray-50: rgb(243, 236, 230);
-  --color-gray-100: rgb(0, 0, 0);
+  --color-gray-100: rgb(85, 77, 77); /*form, admin cart text*/
   --color-gray-300: rgb(99, 92, 86);
   --color-gray-400: rgb(66, 60, 70);
   --color-gray-500: rgb(251, 247, 253);
-  --color-gray-600: rgb(236, 211, 248);
-  --color-gray-700: rgb(0, 0, 0);
+  --color-gray-600: rgb(241, 237, 241); /*picture area background (236, 211, 248)*/
+  --color-gray-700: rgb(192, 134, 9);    /*mobile view drop-down menu*/
 
   --color-primary-50: rgb(253, 224, 200);
   --color-primary-100: rgb(253, 214, 183);
@@ -19,13 +19,13 @@ html {
   --color-primary-400: rgb(223, 159, 41);
   --color-primary-500: rgb(212, 136, 14);
   --color-primary-700: rgb(212, 120, 14); 
-  --color-primary-200-contrast: rgb(100, 46, 2); 
+  --color-primary-200-contrast: rgb(211, 98, 6); 
   --color-primary-500-contrast: white;
 
   --color-error-100: rgb(255, 192, 180);
   --color-error-500: rgb(199, 51, 15);
 
-  --color-primary-500-bg: rgb(143, 105, 35);
+  --color-primary-500-bg: rgb(209, 105, 8); /*nav background, item detail section, view details button*/
 
   --space-1: 0.25rem;
   --space-2: 0.5rem;
